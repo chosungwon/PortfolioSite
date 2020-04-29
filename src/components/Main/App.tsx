@@ -1,5 +1,14 @@
 import React, { Fragment } from 'react';
-import { Main, GlobalStyle, NavBar, ANav, MANav, Container, ContainerTitle } from './styled';
+import {
+  Main,
+  GlobalStyle,
+  NavBar,
+  ANav,
+  MANav,
+  Container,
+  ContainerTitle,
+  GuContainerTitle,
+} from "./styled";
 
 function App() {
   return (
@@ -15,7 +24,7 @@ function App() {
         <Container>
           <ContainerTitle>조성원 포트폴리오 사이트</ContainerTitle>
           <br/>
-          <ContainerTitle>구경ㄱ</ContainerTitle>
+          <GuContainerTitle>구경해</GuContainerTitle>
         </Container>
       </Main>
     </Fragment>

@@ -54,12 +54,15 @@ export const Container = styled.div`
          align-items: center;
          justify-content: center;
          flex-direction: column;
-         opacity: 0.86;
+         opacity: 0.78;
        `;
 
 export const ContainerTitle = styled.span`
          font-family: "Jua", sans-serif;
          font-size: 5rem;
-         color: white;
-        
+         color: #84e500;
+       `;
+
+export const GuContainerTitle = styled(ContainerTitle)`
+         color: #f20059;
        `;
