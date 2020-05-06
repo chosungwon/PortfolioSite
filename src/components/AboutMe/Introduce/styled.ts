@@ -62,7 +62,6 @@ export const InContainer = styled.div`
        `;
 
 export const ContainerDiv = styled.div`
-         cursor:pointer;
          width: 47.6%;
          height: 44%;
          display: flex;
