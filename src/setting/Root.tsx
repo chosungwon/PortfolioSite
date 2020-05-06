@@ -19,10 +19,10 @@ function Root () {
         <ANav href="/Project">Project</ANav>
       </NavBar>
       <main>
-        <Route exact path={"/"} component={App} />
-        <Route exact path={"/AboutMe"} component={AboutMe} />
-        <Route exact path={"/AboutMe/Introduce"} component={Introduce} />
-        <Route exact path={"/Project"} component={Project} />
+        <Route exact path={"PortfolioSite/"} component={App} />
+        <Route exact path={"PortfolioSite/AboutMe"} component={AboutMe} />
+        <Route exact path={"PortfolioSite/AboutMe/Introduce"} component={Introduce} />
+        <Route exact path={"PortfolioSite/Project"} component={Project} />
       </main>
     </Router>
   );
