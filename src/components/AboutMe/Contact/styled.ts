@@ -12,13 +12,13 @@ export const GlobalStyle = createGlobalStyle`
 	}
 `;
 
-
 export const Main = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 `;
+
 
 export const Container = styled.div`
          font-family: "Jua", sans-serif;
@@ -29,6 +29,6 @@ export const Container = styled.div`
          align-items: center;
          justify-content: center;
          flex-direction: column;
-         font-size: 5rem;
+         font-size: 2.9rem;
          color: #84e500;
        `;

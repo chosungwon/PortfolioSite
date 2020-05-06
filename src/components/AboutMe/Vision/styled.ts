@@ -20,6 +20,7 @@ export const Main = styled.div`
   flex-direction: column;
 `;
 
+
 export const Container = styled.div`
          font-family: "Jua", sans-serif;
          width: 100%;
@@ -32,3 +33,4 @@ export const Container = styled.div`
          font-size: 5rem;
          color: #84e500;
        `;
+

@@ -1,17 +1,20 @@
 import React, { Fragment } from "react";
 import { Main, GlobalStyle, Container } from "./styled";
 
-function Project() {
+
+function TechStack() {
   return (
-  <Fragment>
+    <Fragment>
         <GlobalStyle />
         <Main>
           <Container>
-            Project
+            <span>기술 스택</span>
+            <br/>
+            HTML, CSS, JS, React.js, React-Natvie, Node.js
           </Container>
         </Main>
       </Fragment>
   );
 }
 
-export default Project;
+export default TechStack;

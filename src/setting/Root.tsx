@@ -4,6 +4,9 @@ import App from '../components/Main/App';
 import AboutMe from "../components/AboutMe/AboutMe";
 import Project from "../components/Project/Project";
 import Introduce from "../components/AboutMe/Introduce/Introduce";
+import TechStack from "../components/AboutMe/TechStack/TechStack";
+import Vision from "../components/AboutMe/Vision/Vision";
+import Contact from "../components/AboutMe/Contact/Contact";
 import {
   NavBar,
   ANav,
@@ -20,10 +23,13 @@ function Root () {
           <ANav href="/PortfolioSite/Project">Project</ANav>
         </NavBar>
         <main>
-          <Route exact path={"PortfolioSite/"} component={App} />
-          <Route exact path={"PortfolioSite/AboutMe"} component={AboutMe} />
-          <Route exact path={"PortfolioSite/AboutMe/Introduce"} component={Introduce} />
-          <Route exact path={"PortfolioSite/Project"} component={Project} />
+          <Route exact path={"/"} component={App} />
+          <Route exact path={"/AboutMe"} component={AboutMe} />
+          <Route exact path={"/AboutMe/Introduce"} component={Introduce} />
+          <Route exact path={"/AboutMe/TechStack"} component={TechStack} />
+          <Route exact path={"/AboutMe/Vision"} component={Vision} />
+          <Route exact path={"/AboutMe/Contact"} component={Contact} />
+          <Route exact path={"/Project"} component={Project} />
         </main>
       </Route>
     </BrowserRouter>

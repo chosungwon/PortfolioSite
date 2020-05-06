@@ -12,6 +12,8 @@ function Introduce() {
         <GlobalStyle />
         <Main>
           <Container>
+            <span>자기 소개</span>
+            <br/>
             나는 조성원
           </Container>
         </Main>

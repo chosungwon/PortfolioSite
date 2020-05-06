@@ -4,8 +4,9 @@ export const GlobalStyle = createGlobalStyle`
 	html, body{
 
         width: 100%;
+        position: absolute;
         height: 100%;
-		padding: 0;
+		    padding: 0;
         margin: 0;
         background-color: white;
         font-size: 16px;
@@ -27,7 +28,7 @@ export const NavBar = styled.div`
 export const ANav = styled.a`
   font-family: "Jua", sans-serif;
 
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-decoration: none;
   color: black;
 `;

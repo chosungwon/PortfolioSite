@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 
+
 export const Main = styled.div`
   width: 100%;
   height: 100%;
@@ -21,7 +22,6 @@ export const Main = styled.div`
 `;
 
 export const Container = styled.div`
-         font-family: "Jua", sans-serif;
          width: 100%;
          height: calc(100vh - 60px);
          background-color: #353337;
@@ -30,5 +30,9 @@ export const Container = styled.div`
          justify-content: center;
          flex-direction: column;
          font-size: 5rem;
+         font-family: "Jua", sans-serif;
          color: #84e500;
        `;
+
+
+
