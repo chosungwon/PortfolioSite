@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { BrowserRouter, Route } from "react-router-dom"
 import App from '../components/Main/App';
 import AboutMe from "../components/AboutMe/AboutMe";
 import Project from "../components/Project/Project";
@@ -12,19 +12,21 @@ import {
 
 function Root () {
   return (
-    <Router>
-      <NavBar>
-        <ANav href="/">Home</ANav>
-        <MANav href="/AboutMe">AboutMe</MANav>
-        <ANav href="/Project">Project</ANav>
-      </NavBar>
-      <main>
-        <Route exact path={"https://chosungwon.github.io/PortfolioSite"} component={App} />
-        <Route exact path={"https://chosungwon.github.io/PortfolioSite/AboutMe"} component={AboutMe} />
-        <Route exact path={"https://chosungwon.github.io/PortfolioSite/AboutMe/Introduce"} component={Introduce} />
-        <Route exact path={"https://chosungwon.github.io/PortfolioSite/Project"} component={Project} />
-      </main>
-    </Router>
+    <BrowserRouter basename="/PortfolioSite">
+      <Route>
+        <NavBar>
+          <ANav href="/PortfolioSite">Home</ANav>
+          <MANav href="/PortfolioSite/AboutMe">AboutMe</MANav>
+          <ANav href="/PortfolioSite/Project">Project</ANav>
+        </NavBar>
+        <main>
+          <Route exact path={"PortfolioSite/"} component={App} />
+          <Route exact path={"PortfolioSite/AboutMe"} component={AboutMe} />
+          <Route exact path={"PortfolioSite/AboutMe/Introduce"} component={Introduce} />
+          <Route exact path={"PortfolioSite/Project"} component={Project} />
+        </main>
+      </Route>
+    </BrowserRouter>
   );
 };
 

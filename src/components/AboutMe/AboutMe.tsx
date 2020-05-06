@@ -3,9 +3,9 @@ import { Main, GlobalStyle, Container, ContainerDiv, InContainer } from './style
 
 
 function AboutMe() {
-    function go(a: string) {
-       window.location.href = `${a}`;
-    }
+    // function go(a: string) {
+    //    window.location.href = `${a}`;
+    // }
  
     return (
       <Fragment>
