@@ -1,5 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components";
 
+
+
 export const GlobalStyle = createGlobalStyle`
 	html, body{
 
@@ -31,8 +33,44 @@ export const Container = styled.div`
          align-items: center;
          justify-content: center;
          flex-direction: column;
-         opacity: 0.86;
+      
          font-size: 5rem;
          background-color: #353337;
        `;
+
+export const InContainer = styled.div`
+  width: 50%;
+  height: calc(100vh - 80px);
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const ContainerDiv = styled.div`
+  cursor: pointer;
+  width: 47.6%;
+  height: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3%;
+  font-size: 4rem;
+  font-family: "Jua", sans-serif;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #f20059;
+  border-width: 7px;
+  color: #e2d84f;
+  background-color: #353337;
+  &:hover {
+    border-color: #84e500;
+    color: white;
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    flex-direction: column;
+    width: 120%;
+    height: 15%;
+  }
+`;
 

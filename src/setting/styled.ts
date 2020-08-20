@@ -10,6 +10,9 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         background-color: white;
         font-size: 16px;
+        @media (min-width: 320px) and (max-width: 480px) {
+          font-size: 10px;
+        }
 	}
 `;
 
@@ -36,3 +39,19 @@ export const ANav = styled.a`
 export const MANav = styled(ANav)`
   margin: 0px 40px 0px 40px;
 `;
+
+export const Footers = styled.div`
+         width: 100%;
+         height: 60px;
+         position: absolute;
+         right: 0px;
+         bottom: 0px;
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+         box-shadow: 0px 5px 5px gray inset;  
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color: black;
+       `;
+

@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import img from '../../assets/background.jpg'
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -9,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         height: 100%;
 		    padding: 0;
         margin: 0;
-        background-color: white;
+   
         font-size: 10px;
 	}
 `;
@@ -24,18 +23,18 @@ export const Main = styled.div`
 export const Container = styled.div`
          width: 100%;
          height: calc(100vh - 60px);
-         background-image: url(${img});
-         background-size: cover;
+
+         background-color: #353337;
          display: flex;
          align-items: center;
          justify-content: center;
          flex-direction: column;
-         opacity: 0.78;
+         
        `;
 
 export const ContainerTitle = styled.span`
          font-family: "Jua", sans-serif;
-         font-size: 4em;
+         font-size: 4rem;
          color: #84e500;
        `;
 

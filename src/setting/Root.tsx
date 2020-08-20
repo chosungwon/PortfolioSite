@@ -12,6 +12,7 @@ import {
   ANav,
   MANav
 } from "./styled";
+import Weather from '../components/AboutMe/TechStack/Weather/Weather';
 
 function Root () {
   return (
@@ -30,7 +31,11 @@ function Root () {
           <Route exact path={"/AboutMe/Vision"} component={Vision} />
           <Route exact path={"/AboutMe/Contact"} component={Contact} />
           <Route exact path={"/Project"} component={Project} />
+          <Route exact path={"/Project/Weather"} component={Weather} />
         </main>
+        {/* <NavBar>
+          <div>ㅁasd</div>
+        </NavBar> */}
       </Route>
     </BrowserRouter>
   );

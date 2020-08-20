@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 
+
 export const Main = styled.div`
   width: 100%;
   height: 100%;
@@ -21,15 +22,29 @@ export const Main = styled.div`
 `;
 
 export const Container = styled.div`
-         font-family: "Jua", sans-serif;
          width: 100%;
          height: calc(100vh - 60px);
          background-color: #353337;
          display: flex;
-         align-items: center;
-         justify-content: center;
-         flex-direction: column;
-         font-size: 5rem;
-         color: #84e500;
-
+         flex-direction: row;
+         
+         font-size: 3rem;
+         font-family: "Jua", sans-serif;
+         /* color: #84e500; */
+         overflow: hidden;
        `;
+
+export const CL = styled.div`
+    text-align: center;
+     width: 50%;
+    float: left;
+`;
+
+export const CR = styled.div`
+text-align: center;
+    width: 50%;
+    float: right;
+`;
+
+
+

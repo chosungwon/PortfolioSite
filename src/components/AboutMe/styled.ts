@@ -63,7 +63,7 @@ export const ContainerDiv = styled.div`
          @media (min-width: 320px) and (max-width: 480px) {
            flex-direction: column;
            width: 120%;
-           height: 10%;
+           height: 15%;
           
          }
        `;
