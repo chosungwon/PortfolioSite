@@ -12,7 +12,10 @@ import {
   ANav,
   MANav
 } from "./styled";
-import Weather from '../components/AboutMe/TechStack/Weather/Weather';
+import Weather from '../components/Project/Weather/Weather';
+import Drink from '../components/Project/Drink/Drink';
+import Toserver from '../components/Project/Toserver/Toserver';
+
 
 function Root () {
   return (
@@ -32,6 +35,8 @@ function Root () {
           <Route exact path={"/AboutMe/Contact"} component={Contact} />
           <Route exact path={"/Project"} component={Project} />
           <Route exact path={"/Project/Weather"} component={Weather} />
+          <Route exact path={"/Project/Drink"} component={Drink} />
+          <Route exact path={"/Project/Toserver"} component={Toserver} />
         </main>
         {/* <NavBar>
           <div>ㅁasd</div>

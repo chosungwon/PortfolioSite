@@ -6,8 +6,8 @@ import {
   CL,
   CR
 } from "./styled";
-import weather1 from "../../../../assets/weather1.png";
-import weather2 from "../../../../assets/weather2.png";
+import weather1 from "../../../assets/weather1.png";
+import weather2 from "../../../assets/weather2.png";
 
 
 function Weather() {
@@ -20,8 +20,8 @@ function Weather() {
           <CL>
             <h3>사용 기술</h3>
             <p>React-Native</p>
-            <img src={weather1} />
-            <img src={weather2} />
+            <img alt={"weather1"} src={weather1} />
+            <img alt={"weather2"} src={weather2} />
           </CL> 
 
           <CR>

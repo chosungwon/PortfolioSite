@@ -13,9 +13,9 @@ function Project() {
           <InContainer>
             <ContainerDiv onClick = {() => {go("/PortfolioSite/Project/Weather")}}>RN 날씨앱</ContainerDiv>
 
-            <ContainerDiv>Drink Well</ContainerDiv>
+            <ContainerDiv onClick={() => { go("/PortfolioSite/Project/Drink") }}>Drink Well</ContainerDiv>
 
-            <ContainerDiv>Toserver</ContainerDiv>
+            <ContainerDiv onClick={() => { go("/PortfolioSite/Project/Toserver") }}>Toserver</ContainerDiv>
 
             <ContainerDiv>우강푸</ContainerDiv>
           </InContainer>
